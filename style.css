@@ -1,0 +1,65 @@
+:root {
+    --background-color: #e0e0e0;
+    --primary-color: #3a82f0;
+    --primary-color-dark: #ec7753;
+}
+
+header {
+    background-color: var(--primary-color);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+
+    color: white;
+}
+header h3 {
+    margin: auto;
+}
+header div {
+    margin: auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--background-color);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+}
+
+main {
+    padding: 10px;
+    max-width: 600px;
+    margin: auto;
+}
+
+section {
+    margin: 10px 0;
+    padding: 10px 10px;
+}
+section p {
+    margin: 20px 0;
+}
+
+h2 {
+    margin: 10px 0 0 0;
+}
+
+ol {
+    margin: 0 0 0 25px;
+}
+ol li {
+    padding: 10px 0 0 0;
+}
+ol p {
+    margin: 5px 0 10px 0;
+}
